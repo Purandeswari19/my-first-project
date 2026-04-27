@@ -64,6 +64,8 @@ python -m personal_ai_assistant.mcp_db_server
 ```bash
 adk web
 ```
+Then choose app `personal_ai_assistant` in the UI (or CLI picker).
+ADK will load `personal_ai_assistant.agent.root_agent` (provided by `personal_ai_assistant/agent.py`).
 The root agent lives in `personal_ai_assistant/assistant_agent.py` as `root_agent`.
 
 ### 3) Run reminder scheduler (timely alerts)
